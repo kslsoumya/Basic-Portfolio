@@ -9,7 +9,7 @@
 .portfolio {
     border: 5px solid #fff5ee;
     margin-left: 10vw;
-    height: 25vh;
+    height: 30vh;
     width: 50vw;
 }
 
@@ -17,11 +17,12 @@
     font-size: 1.1rem;
     padding: 2vw;
     width: 45vw;
-    height:20vh;
+    height: 10vh;
 }
 
 .portfolio h3 {
     padding-left: 4vh;
+    font-style: italic;
 }
 
 .play {
@@ -38,6 +39,10 @@
     padding: 1vh 3vh 2vh 4vh;
 }
 
+.third li {
+    font-size: 1.1rem;
+}
+
 .icons {
     padding: 2vw;
     height: 10vh;
@@ -49,6 +54,13 @@
     border: none;
     display: flex;
     margin-left: 11vw;
+}
+
+.icon2 {
+    padding: 2.5vw;
+    height: 12vh;
+    width: 5vw;
+    animation: iconAnim 2s infinite;
 }
 
 @keyframes iconAnim {
@@ -67,18 +79,27 @@
     }
 }
 
-@media screen and  (max-width:650px) {
-    .portfolio  {
-        height:50vh;
-        width:55vw;
+@media screen and (max-width:650px) {
+    .portfolio {
+        height: 50vh;
+        width: 55vw;
+    }
+    .icons,
+    .icon2 {
+        width: 7vw;
     }
 }
-@media screen and  (max-width:325px) {
-    .portfolio  {
-        height:60vh;
-        width:100vw;
+
+@media screen and (max-width:325px) {
+    .portfolio {
+        height: 60vh;
+        width: 100vw;
     }
     .portfolio p {
-        width:70vw;
+        width: 70vw;
+    }
+    .icons,
+    .icon2 {
+        width: 9vw;
     }
 }
