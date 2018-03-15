@@ -24,8 +24,18 @@
 
     border-radius: 10px;
     margin-left: 7vw;
+    width:15vw;
 }
 
 .resumeImages {
     margin-top: 40vh;
+}
+
+@media screen and (min-width :768px) and (max-width:1024px) {
+     :root {
+        font-size: 24px;
+    }
+    .download img {
+        width: 49vw;
+    }
 }
