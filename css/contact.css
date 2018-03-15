@@ -1,0 +1,65 @@
+:root {
+    font-size: 16px;
+}
+
+.myHeader p{
+    padding-left: 10vw;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.myContact {
+    width: 45vw;
+    height: 20vh;
+    margin-left: 10vw;
+}
+
+.message {
+    padding: 2vw;
+}
+
+.smiley {
+    width: 4vw;
+    border-radius: 30px;
+}
+
+.small-images {
+    width: 35vw;
+    height: 45vh;
+}
+
+.small-images ul {
+    list-style: none;
+    display: flex;
+    width: 30vw;
+    height: 8vh;
+}
+
+.small-images li {
+    padding: 2vw;
+}
+
+.icons {
+    padding-bottom: 2vw;
+    width: 3vw;
+    height: 6vh;
+}
+
+.contact {
+    margin-left: 2vw;
+    margin-top: 1vh;
+    width: 42vw;
+}
+
+.footerHeight {
+    margin-top: 50vh;
+}
+
+@media screen and (min-width:100px) and (max-width:500px) {
+    .icons {
+        width: 10vw;
+    }
+    .smiley {
+        width: 6vw;
+    }
+}

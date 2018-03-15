@@ -1,0 +1,31 @@
+:root {
+    font-size: 16px;
+}
+
+
+.download {
+    height: 20vh;
+    width: 30vw;
+    margin-left: 30vw;
+    margin-top: 20vh;
+}
+
+.myHeader h2 {
+    padding-left: 3vw;
+    font-style: italic;
+}
+
+.download p {
+    padding-left: 1vw;
+    font-family: fantasy;
+}
+
+.download img {
+
+    border-radius: 10px;
+    margin-left:7vw;
+}
+
+.resumeImages {
+    margin-top: 40vh;
+}

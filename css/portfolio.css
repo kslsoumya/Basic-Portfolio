@@ -1,0 +1,84 @@
+:root {
+    font-size: 16px;
+}
+
+.body {
+    background-color: #fff;
+}
+
+.portfolio {
+    border: 5px solid #fff5ee;
+    margin-left: 10vw;
+    height: 25vh;
+    width: 50vw;
+}
+
+.portfolio p {
+    font-size: 1.1rem;
+    padding: 2vw;
+    width: 45vw;
+    height:20vh;
+}
+
+.portfolio h3 {
+    padding-left: 4vh;
+}
+
+.play {
+    margin-left: 30vw;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.second {
+    height: 25vh;
+}
+
+.second p {
+    padding: 1vh 3vh 2vh 4vh;
+}
+
+.icons {
+    padding: 2vw;
+    height: 10vh;
+    width: 4vw;
+    animation: iconAnim 2s infinite;
+}
+
+.anim {
+    border: none;
+    display: flex;
+    margin-left: 11vw;
+}
+
+@keyframes iconAnim {
+    0% {
+        background-color: #5500ff59;
+        ;
+    }
+    50% {
+        background-color: #00ffe6;
+    }
+    75% {
+        background-color: #03800073;
+    }
+    100% {
+        background-color: #ee00ff;
+    }
+}
+
+@media screen and  (max-width:650px) {
+    .portfolio  {
+        height:50vh;
+        width:55vw;
+    }
+}
+@media screen and  (max-width:325px) {
+    .portfolio  {
+        height:60vh;
+        width:100vw;
+    }
+    .portfolio p {
+        width:70vw;
+    }
+}
